@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #495E57;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+}
+
+.containerImage{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerImage{
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+    transform: translateY(10rem);
+}
+.container{
+    width: 55%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titles{
+    margin-bottom: 1rem;
+}
+
+.titles h1 {
+    font-family: 'Markazi Text', serif;
+    font-size: 4rem;
+    color: #F4CE14;
+    font-weight: 500;
+    margin: 0;
+}
+
+.titles h4 {
+    font-family: 'Markazi Text', serif;
+    color: #EDEFEE;
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin: 0;
+}
+
+.container p {
+    color: #EDEFEE;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.container button {
+    width: 200px;
+    background-color: #F4CE14;
+    color: #333333;
+    border-radius: 16px;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.125rem;
+    cursor: pointer;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+}
+
+.container button:hover {
+    background-color: #e0bd13;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .containerImage, .container {
+        width: 100%;
+    }
+
+    .containerImage {
+        margin-bottom: 2rem;
+    }
+
+    .container button {
+        width: 100%;
+    }
+}
