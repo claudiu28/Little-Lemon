@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400&display=swap');
+
+.formDate {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #EDEFEE;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Markazi Text', serif;
+}
+
+.formDate label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333333;
+}
+
+.formDate input[type="date"],
+.formDate input[type="number"],
+.formDate select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #EDEFEE;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.formDate input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #495E57;
+    color: #EDEFEE;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.formDate input[type="submit"]:hover {
+    background-color: #495E57;
+}
+
+.divForms {
+    margin-bottom: 20px;
+}
+
+.paragraphDate {
+    margin-top: 5px;
+    font-size: 14px;
+    color: red;
+}
+
+div h4 {
+    font-size: 18px;
+    color: #333333;
+    margin: 8px 0;
+}
+
+div strong {
+    color: black;
+}
+
+.divs{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.btn{
+    margin: 1.2em auto;
+    cursor:pointer;
+    padding: 1rem 1rem;
+    background-color: #F4CE14;
+    border-radius: 6px;
+    border: 0;
+    font-size:18px;
+    width: 100%;
+    margin-bottom: 0;     
+}
+@media screen and (max-width: 600px) {
+    .formDate {
+        padding: 10px;
+    }
+
+    .formDate input[type="submit"] {
+        font-size: 16px;
+        padding: 10px;
+    }
+}

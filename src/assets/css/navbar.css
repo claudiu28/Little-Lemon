@@ -36,6 +36,20 @@ li {
     padding: 1rem 1rem;
 }
 
+.link{
+    text-decoration: none;
+    color:black;
+}
+.link:hover{
+    color: black;
+}
+.link:visited{
+    color: black;
+}
+.link:active{
+    color:black;
+}
+
 @media (max-width:768px){
     nav {
         flex-direction: column;
@@ -56,4 +70,6 @@ li {
         text-align: center;
         padding: 0.5rem 0;
     }
+   
+
 }

@@ -9,23 +9,25 @@
 }
 
 footer {
-    margin-top: 15rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     padding: 2rem 5%;
     background-color: #EDEFEE;
 }
 
 footer div {
     width: 15%;
+    
 }
 
 footer div img {
     width: 100%;
     object-fit: contain;
     max-height: 100px;
+    
 }
 
 footer ul {
@@ -44,7 +46,19 @@ footer ul li {
 .footerStrong {
     color: hsl(182, 79%, 21%);
 }
-
+.link{
+    text-decoration: none;
+    color:black;
+}
+.link:hover{
+    color: black;
+}
+.link:visited{
+    color: black;
+}
+.link:active{
+    color:black;
+}
 @media (max-width: 768px) {
     footer {
         margin-top: 0rem;
