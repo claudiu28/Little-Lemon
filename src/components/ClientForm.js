@@ -63,14 +63,14 @@ const ClientForm = () => {
 
                 <div className="divForms">
                     <label>Lastname</label>
-                    <input type="text" name="lastname"value={lastname} onChange={(event) => setLastName(event.target.value)}
+                    <input type="text" name="lastname" value={lastname} onChange={(event) => setLastName(event.target.value)}
                     />
                     {error.lastname && <p className="paragraph">{error.lastname}</p>}
                 </div>
 
                 <div className="divForms">
                     <label>Email</label>
-                    <input type="email"name="email" value={email}
+                    <input type="email" name="email" value={email}
                         onChange={(event) => setEmail(event.target.value)}
                     />
                     {error.email && <p className="paragraph">{error.email}</p>}
@@ -91,7 +91,7 @@ const ClientForm = () => {
                     ></textarea>
                 </div>
                 <input type="submit" value="Send Details" />
-                <button onClick={() => navigate('/') }className = "btn">Home</button>    
+                <button onClick={() => navigate('/') } className = "btn">Home</button>
             </form>
         </>
     );

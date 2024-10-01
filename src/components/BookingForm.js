@@ -61,7 +61,7 @@ const BookingForm = (props) => {
                 <input type="number" required data-testid="guests-Input" placeholder="1" id="guests" value={guests} onChange={
                     (event) => {
                         if(event.target.value >= 1 && event.target.value <= 10){
-                            setGuests(event.target.value);
+                            setGuests(Number(event.target.value));
                             setError({...error, guests: ""});
                         }else{
                             setError({...error,guests:"Number of guests should be between 1 and 10!"});
@@ -80,7 +80,7 @@ const BookingForm = (props) => {
                 </select>
             </div>
             <input type="submit" value="Make Your reservation" data-testid = "buttonDate"/>
-            <button onClick={() => navigate('/') }className = "btn">Home</button>    
+            <button onClick={() => navigate('/') } className = "btn">Home</button>
         </form>
         <div className='divs'>
             <h4>Date: <strong>{date}</strong></h4>

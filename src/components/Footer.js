@@ -34,8 +34,8 @@ const Footer = () => {
             </ul>
             <ul>
               <li>Contact phone:<strong className = "footerStrong"> xxxxxxxxxx</strong></li>
-              <li>Contact resturant x: <strong className = "footerStrong"> xxxxxxxxxx</strong></li>
-              <li>Contact resturant y:<strong className = "footerStrong">  xxxxxxxxxx</strong></li>
+              <li>Contact restaurant x: <strong className = "footerStrong"> xxxxxxxxxx</strong></li>
+              <li>Contact restaurant y:<strong className = "footerStrong">  xxxxxxxxxx</strong></li>
             </ul>
             <ul>
               {listSocials}
