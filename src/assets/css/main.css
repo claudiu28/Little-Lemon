@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
-.containerOne{
+.containerOne {
     margin-top: 10rem;
     display: flex;
     flex-direction: row;
@@ -17,12 +17,12 @@
     margin-bottom: 1rem;
 }
 
-.containerOne > h1{
+.containerOne > h1 {
     font-family: "Karla", sans-serif;
     font-weight: bolder;
 }
 
-.containerOne > button{
+.containerOne > button {
     border: 0;
     border-radius: 25px;
     background-color: #F4CE14;
@@ -30,7 +30,7 @@
     padding: 1rem 2rem;
 }
 
-.containerOne > button:hover{
+.containerOne > button:hover {
     background-color: #e0bd13;
 }
 
@@ -51,7 +51,7 @@
     background-color: azure;
     overflow: hidden;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .card > img {
@@ -91,45 +91,48 @@
     margin-bottom: 0.6rem;
 }
 
-.containerTestimonials{
+.containerTestimonials {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap:2rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
 }
 
-.CardTest{
+.CardTest {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 1rem 2rem;
 }
 
-.CardTest div{
+.CardTest div {
     display: flex;
     width: 100%;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
-.CardTest div img{
+
+.CardTest div img {
     width: 60px;
     height: 60px;
     object-fit: cover;
-    border:3px solid #333333;
-    border-radius:50px;
+    border: 3px solid #333333;
+    border-radius: 50px;
 }
-span{
+
+span {
     vertical-align: middle;
     padding: 1em;
 }
-strong{
+
+strong {
     margin-left: 0.4em;
 }
 
-.CardTest p{
-    margin-top:0.5em;
+.CardTest p {
+    margin-top: 0.5em;
     text-align: center;
 }
 

@@ -21,7 +21,7 @@
 .formUser input[type="text"],
 .formUser input[type="email"],
 .formUser input[type="tel"],
-.formUser textarea{
+.formUser textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 15px;
@@ -64,17 +64,19 @@ div h4 {
 div strong {
     color: black;
 }
-.btn{
+
+.btn {
     margin: 1.2em auto 0;
-    cursor:pointer;
+    cursor: pointer;
     padding: 1rem 1rem;
     background-color: #F4CE14;
     border-radius: 6px;
     border: 0;
-    font-size:18px;
+    font-size: 18px;
     width: 100%;
 
 }
+
 @media screen and (max-width: 600px) {
     .formDate {
         padding: 10px;

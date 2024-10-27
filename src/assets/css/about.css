@@ -5,7 +5,7 @@
     padding: 3rem;
     max-width: 1200px;
     margin: 0 auto;
-    
+
 }
 
 .about_one {
@@ -67,7 +67,7 @@
 }
 
 
-@media(max-width:768px){
+@media (max-width: 768px) {
     .AboutSection {
         flex-direction: column;
         padding: 1rem;

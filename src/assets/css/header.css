@@ -13,27 +13,28 @@
     padding: 2rem 4rem;
 }
 
-.containerImage{
+.containerImage {
     width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.headerImage{
+.headerImage {
     max-width: 100%;
     height: auto;
     border-radius: 25px;
     transform: translateY(10rem);
 }
-.container{
+
+.container {
     width: 55%;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.titles{
+.titles {
     margin-bottom: 1rem;
 }
 
